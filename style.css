@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:ital@1&display=swap');
+
+
+*{
+    text-decoration: none;
+    font-family: 'Koulen', cursive;
+font-family: 'Roboto', sans-serif;
+list-style:none;
+text-decoration: none;
+}
+
+.main-nav{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand{
+    
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+
+}
+
+.navigation-links a:hover{
+    color: black;
+    font-weight: 600;
+}
+
+
+
+.right-div{
+    /* min-width:70px; */
+    width: 250px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration:none;
+    color:grey;
+
+}
+
+.header{
+    margin-top:40px;
+}
+
+.header_image{
+    float:right;
+}
+
+.header_image a{
+    color:grey;
+
+}
+
+
+.header-heading{
+    font-weight: 700;
+}
+
+
+.display-right{
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+
+
+------------------------
+.navigation-tags  ul li{
+    list-style:none;
+    text-decoration: none;
+}
+
+.footer-link a{
+    display: block;
+    padding-top: 22px;
+
+}
+
+.social-links a{
+    color:black;
+    width:36px;
+}
+
+
+.hover-icon{
+    position: relative;
+
+
+}
+
+
+
+
+.icons{
+    
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    padding-left:15px;
+    opacity: 0;
+    transition:  0.5s ;
+}
+
+
+.card:hover .icons{
+    opacity: 1;
+    
+}
+
+
